@@ -2,7 +2,7 @@
 
 This project implements a custom OCR engine in MATLAB, designed to convert scanned images of English text into editable digital format. The system utilizes image processing techniques and correlation based classification to achieve high accuracy.
 
-##Features
+## Features
 * **Custom Character Database**: Automatically generates a reference database from a template image.
 * **Line & Character Segmentation**: Uses horizontal and vertical projection (summation) to isolate text lines and individual characters.
 * **Intelligent Spacing**: An algorithm that calculates the maximum gap in a line to accurately insert spaces between words.
