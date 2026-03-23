@@ -19,7 +19,7 @@ To ensure optimal performance, the following conditions are assumed:
 
 ## Performance & Results
 The system was tested on various datasets with the following results:
-| Test Case | # chars | Currect chars | accuracy |
+| Test Case | # chars | Correct chars | Accuracy |
 | :--- | :--- | :--- | :--- |
 | input1 | 328 | 298 | 90.8% |
 | input2 | 328 | 322 | 98.1% |
