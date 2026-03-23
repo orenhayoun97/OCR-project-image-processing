@@ -18,16 +18,16 @@ To ensure optimal performance, the following conditions are assumed:
 
 ## Performance & Results
 The system was tested on various datasets with the following results:
-| Test Case | Accuracy | Execution Time | Character Size |
+| Test Case | # chars | Currect chars | accuracy |
 | :--- | :--- | :--- | :--- |
-| Lowercase only | 100% | 1.56s | 30x23 |
-| Uppercase only | 99.69% | 1.32s | 13x9 |
-| Mixed Paragraphs | 99.48% | 4.50s | 16x13 |
+| input1 | 328 | 298 | 90.8% |
+| input2 | 328 | 322 | 98.1% |
+| input3 | 69 | 63 | 92.6% |
 
-*Note: Minor errors in uppercase recognition were occasionally due to morphological similarities between characters (e.g., 'U' vs 'V')*
+*Note: there is an errors in lowercase recognition were occasionally due to morphological similarities between characters (e.g., 'v' vs 'V')*
 
 ## How to Use
-1. Ensure `project.m` and the template image `ABC_consolas_bold.png` are in the same directory.
-2. Update the `input` variable in `project.m` with your image filename (e.g., `text1.png`).
+1. Ensure the codes in `src` and the template image `ABC_consolas_bold.png` are in the same directory.
+2. Update the `input` variable in `main.m` with your image filename (e.g., `input1.png`).
 3. Run the script.
-4. The recognized text will be displayed in the command window and saved to `output.txt`.
+4. The recognized text will be displayed in the command window.
