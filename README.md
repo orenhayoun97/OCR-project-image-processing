@@ -15,6 +15,7 @@ To ensure optimal performance, the following conditions are assumed:
 * **Font**: Consolas Bold.
 * **Content**: No punctuation or numbers.
 * **Quality**: High-resolution input images.
+* **Color**: Clear color separation between text and background
 
 ## Performance & Results
 The system was tested on various datasets with the following results:
